@@ -84,7 +84,7 @@ function App() {
                   <button
                     key={item}
                     onClick={() => scrollToSection(item.toLowerCase())}
-                    className={`px-4 py-2 transition-all duration-300 ${
+                    className={`px-4 py-2 cursor-pointer transition-all duration-300 ${
                       activeSection === item.toLowerCase()
                         ? "bg-white text-black"
                         : "text-gray-400 hover:text-white hover:bg-gray-800"
